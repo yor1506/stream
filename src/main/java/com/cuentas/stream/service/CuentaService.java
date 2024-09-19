@@ -7,7 +7,7 @@ import java.util.List;
 public interface CuentaService {
 
     List<DTOCuenta> listar();
-
+    //sale error por falta de dependencias
     DTOCuenta buscarCuenta(String username);
 
     void insertarCuenta(DTOCuenta dtoCuenta);

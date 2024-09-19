@@ -20,7 +20,7 @@ public class CuentaServiceImpl implements CuentaService{
     @Autowired
     private CuentaMapper cuentaMapper;
 
-
+    //sale error por falta de dependencias
     @Autowired
     private ClientesImpl clientes;
 
